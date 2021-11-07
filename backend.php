@@ -9,21 +9,11 @@
             $sql = $conn->query($sql);
             $sql = $sql-> fetch_assoc();
             if($sql){
-                echo "<p>data inserted!";     
+                echo "<p>data inserted!</p>";     
             exit();
             }
 
         }
-
-
-
-
-
-
-
-
-
-
     }
 
 ?>
