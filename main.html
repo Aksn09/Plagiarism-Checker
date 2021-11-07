@@ -10,14 +10,16 @@
 <body>
  <span style="color:YELLOW;font-weight:bolder"> </span><h1><B><U> PLAGIARISM CHECKER</U></B></h1> 
     <h2><b><q>This checker detects plagiarism in your text</q></b></h2>
-    <P><IMG SRC="plagiarism.png" STYLE="WIDTH:150PX;HEIGHT:150PX; border-radius: 50%;"ALIGN="CENTRE"><BR />
+    <P><IMG SRC="plagiarism.png" STYLE="WIDTH:150PX;HEIGHT:150PX; border-radius: 50%;"ALIGN="CENTRE"><br>
+      <!-- form -->
     <div class="f-cont">
         <form action="backend.php" method="post">
-            <input type="text" name="text" class="textbox" placeholder="Enter your text or upload file for plagiarism and writing errors."><br>
-            <input type="file" name="file" value="file" placeholder="Choose your file">
+            <textarea type="text" name="ptext" class="textbox" placeholder="Enter your text or upload file for plagiarism and writing errors."></textarea><br>
+            <!-- <input type="file" name="file" value="file" placeholder="Choose your file"> -->
             <input type="submit" name="psubmit" value= 'Submit' class="submit"><br>   
         </form>
     </div>
+
     <div class="container">
     <div id="st-box">
      <b>Catch plagiarism from existing databases of this website</b><br>
