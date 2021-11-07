@@ -12,7 +12,11 @@
                 echo "<p>data inserted!</p>";     
             exit();
             }
+            // array define with random int values
+            // random number picker ? in php we'll use and it will return random number
+            //  $percentage = random number
 
+            // remarks - 
         }
     }
 
